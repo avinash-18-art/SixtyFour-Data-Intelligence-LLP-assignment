@@ -1,0 +1,30 @@
+.sidebar {
+  width: 200px;
+  min-height: 100vh;
+  background-color: #fff;
+  transition: width 0.3s;
+  padding: 10px;
+  box-sizing: border-box;
+  position: fixed;
+  overflow: hidden;
+}
+
+.sidebar-collapsed {
+  width: 50px;
+  padding: 10px 0;
+}
+
+.sidebar-item {
+  margin-bottom: 20px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.sidebar-item:hover {
+  background-color: #f0f0f0;
+}
+
+.toggle-btn {
+  margin-bottom: 10px;
+}

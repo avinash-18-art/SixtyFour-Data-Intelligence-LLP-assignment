@@ -1,0 +1,26 @@
+.main-content {
+  margin-left: 200px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.main-content-collapsed {
+  margin-left: 50px;
+}
+
+.item {
+  margin: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  background: #ffffff;
+}
+
+.item img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
