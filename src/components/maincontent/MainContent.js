@@ -30,7 +30,12 @@ const MainContent = () => {
   const loadMoreItems = async () => {
     try {
       const newItems = [
-        {id: 4, title: 'New Item', imageUrl: 'https://via.placeholder.com/100'},
+        {
+          id: 4,
+          title: 'Monitor Payment & Banking Notification',
+          imageUrl:
+            'https://www.bonrix.co.in/img/product/MonitorPayment&BankingNotification/MonitorPayment&BankingNotification.jpg',
+        },
       ]
       setItems(currentItems => [...currentItems, ...newItems])
     } catch (error) {
