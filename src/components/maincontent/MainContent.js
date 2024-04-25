@@ -7,19 +7,18 @@ const initialItems = [
     id: 1,
     title: 'Market Overview',
     imageUrl:
-      'https://www.soctboma.org/wp-content/uploads/2017/12/stateofthemarket_intro-3527fd7861b78206.jpg',
+      'https://cdn4.vectorstock.com/i/1000x1000/78/03/market-analysis-vector-4667803.jpg',
   },
   {
     id: 2,
     title: 'Economic Times',
-    imageUrl:
-      'https://m.economictimes.com/thumb/msid-108687301,width-640,height-480,resizemode-7/states-usurping-branding-of-central-schemes-may-lose-cheaper-capex-loans.jpg',
+    imageUrl: 'https://economictimes.indiatimes.com/photo/68289255.cms',
   },
   {
     id: 3,
     title: 'Direct Tax',
     imageUrl:
-      'https://media.geeksforgeeks.org/wp-content/uploads/20221125153840/directtax.png',
+      'https://3.imimg.com/data3/CE/TS/MY-2751960/direct-taxes-services-500x500.jpg',
   },
 ]
 
@@ -34,7 +33,7 @@ const MainContent = () => {
           id: 4,
           title: 'Monitor Payment & Banking Notification',
           imageUrl:
-            'https://www.bonrix.co.in/img/product/MonitorPayment&BankingNotification/MonitorPayment&BankingNotification.jpg',
+            'https://c8.alamy.com/comp/K6T10K/secure-payment-notification-in-a-mobile-phone-screen-woman-using-a-K6T10K.jpg',
         },
       ]
       setItems(currentItems => [...currentItems, ...newItems])
